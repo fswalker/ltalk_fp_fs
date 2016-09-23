@@ -1,0 +1,62 @@
+.reveal,
+.reveal h1,
+.reveal h2,
+.reveal h3,
+.reveal h4,
+.reveal h5,
+.reveal h6 {
+    font-family: 'Coda', cursive;
+    /*font-family: 'Open Sans', sans-serif !important;*/
+}
+
+.reveal .slide-number {
+    font-family: 'Coda', cursive;
+    padding-top: 7px;
+}
+
+.slide-background.title-logo.present {
+    opacity: .5;
+}
+.slide-background.title-logo-fout.present {
+    opacity: .25;
+}
+.slide-background.title-logo-fout.demo.present {
+    opacity: 1;
+}
+.print-pdf .reveal .slide-background.title-logo {
+    opacity: .5 !important;
+}
+.print-pdf .reveal .slide-background.title-logo-fout {
+    opacity: .25 !important;
+}
+.print-pdf .reveal .slide-background.title-logo-fout.demo {
+    opacity: 0 !important;
+}
+
+section.software-industry ul {
+    display: block;
+    margin: .75em auto;
+    list-style-type: none;
+    text-align: center;
+}
+section.software-industry ul li {
+    display: inline-block;
+    padding-right: 1em;
+}
+section.software-industry img {
+    height: 1em;
+    margin: 0;
+    padding-right: .1em;
+    border: 0;
+    box-shadow: none;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+.reveal .statistics img {
+    width: 10em;
+    margin: 0;
+    margin-top: -20px;
+    border: 0;
+    box-shadow: none;
+}
